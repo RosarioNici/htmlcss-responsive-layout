@@ -5,6 +5,11 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    ;
+}
+
 /* Utilities */
 
 .flex-beetwen {
@@ -12,6 +17,18 @@
     justify-content: space-between;
     align-items: center;
 
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.margin-card {
+    margin: 30px;
+    padding: 30px;
 }
 
 /* header rules */
@@ -29,6 +46,40 @@
 
 
 /* main rules */
+.card-button {
+    text-align: left;
+    width: 80%;
+    height: 580px;
+    margin: 0 auto;
+    background-color: #0083fd79;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.card-button>* {
+    margin-top: 20px;
+}
+
+.long-img {
+    width: 100%;
+    height: 86%;
+
+
+}
+
+.title-cards {
+    color: #0084fd;
+}
+
+.apple-button {
+    width: 200px;
+    padding: 10px;
+    background-color: #0084fd;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+
 /* footer rules */
 /* media querey tablet */
 /* media querey desktop */
