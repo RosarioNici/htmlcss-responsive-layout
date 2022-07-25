@@ -1,6 +1,33 @@
 /* General rules  */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 /* Utilities */
+
+.flex-beetwen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
 /* header rules */
+.container-h {
+    background-color: #0084fd;
+    height: 90px;
+    padding: 20px;
+}
+
+.fa-bars {
+    color: white;
+    font-size: x-large;
+}
+
+
+
 /* main rules */
 /* footer rules */
 /* media querey tablet */
