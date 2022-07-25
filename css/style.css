@@ -26,9 +26,29 @@ body {
 
 }
 
-.margin-card {
+.mar-padd-30 {
     margin: 30px;
     padding: 30px;
+}
+
+.title-cards {
+    color: #0084fd;
+}
+
+.zero-auto {
+    margin: 0 auto;
+}
+
+.text-align {
+    text-align: left;
+}
+
+.text-align-c {
+    text-align: center;
+}
+
+.margin-top {
+    margin-top: 30px;
 }
 
 /* header rules */
@@ -43,21 +63,17 @@ body {
     font-size: x-large;
 }
 
-
-
 /* main rules */
 .card-button {
-    text-align: left;
-    width: 80%;
-    height: 580px;
-    margin: 0 auto;
-    background-color: #0083fd79;
-    border-radius: 10px;
+    width: 65%;
+    height: 572px;
+    background-color: #b5ddff;
+    border-radius: 20px;
     margin-top: 50px;
 }
 
 .card-button>* {
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .long-img {
@@ -67,10 +83,6 @@ body {
 
 }
 
-.title-cards {
-    color: #0084fd;
-}
-
 .apple-button {
     width: 200px;
     padding: 10px;
@@ -78,6 +90,66 @@ body {
     color: white;
     border: none;
     border-radius: 30px;
+}
+
+.card {
+    width: 65%;
+    height: 400px;
+    background-color: #b5ddff;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card>* {
+    margin-top: 25px;
+}
+
+.icon-card {
+    font-size: 100px;
+    color: #0084fd;
+}
+
+
+/* strategic planning */
+.strategic {
+    background-color: #9792e4;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.text-strategic {
+    color: white;
+}
+
+.white-img {
+    background-color: white;
+    height: 550px;
+    width: 65%;
+    border-radius: 40px;
+    margin-bottom: 50px;
+}
+
+.white-img>* {
+    margin-top: 25px;
+
+}
+
+.background-img {
+    width: 90%;
+    height: 50%;
+}
+
+.circle-button {
+    width: 50px;
+    height: 50px;
+    background-color: #9792e4;
+    border-radius: 50%;
+    border: none;
+}
+
+.fa-arrow-down {
+    font-size: large;
 }
 
 /* footer rules */
