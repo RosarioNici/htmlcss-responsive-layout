@@ -77,7 +77,9 @@ body {
 .apple-button,
 .fa-bars,
 .violet-button,
-.linkedin-button {
+.linkedin-button,
+.white-title,
+.footer-black {
     color: white;
 }
 
@@ -91,7 +93,8 @@ body {
 .circle-button,
 .number-cards,
 .violet-button,
-.container-v {
+.container-v,
+.linkedin-button {
     background-color: #9792e4;
 }
 
@@ -235,7 +238,6 @@ a {
 
 .card-testimonial {
     height: 400px;
-
     border-radius: 20px;
     text-align: center;
     margin-top: 30px;
@@ -319,7 +321,6 @@ a {
 .linkedin-button {
     width: 250px;
     height: 30px;
-    background-color: #9792e4;
     border: none;
     border-radius: 30px;
     font-size: large;
@@ -337,7 +338,6 @@ a {
 
 .footer-black {
     width: 100%;
-    color: white;
     text-align: center;
 }
 
@@ -351,7 +351,6 @@ a {
 }
 
 .white-title {
-    color: white;
     font-size: 30px;
 }
 
@@ -383,4 +382,69 @@ span {
 }
 
 /* media querey tablet */
+
+@media screen and (min-width: 768px) {
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: calc(90% / 3);
+        height: 570px;
+        margin-top: 50px;
+        margin-left: 10px;
+
+    }
+
+    .card-button {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 506px;
+        height: 570px;
+    }
+
+    .long-img {
+        width: 100%;
+        height: 60%;
+    }
+
+    .italic-size {
+        width: 450px;
+    }
+
+    .background-img {
+        transform: scale(0.8);
+    }
+
+    .card-testimonial {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 90%;
+        height: 270px;
+        border-radius: 40px;
+    }
+
+    .text-testimonial {
+        width: 65%;
+        text-align: left;
+
+    }
+
+    .text-testimonial>* {
+        margin-top: 10px;
+    }
+
+    .container-img-testimonial,
+    .container-img-testimonial-2,
+    .container-img-testimonial-3 {
+        width: 30%;
+        margin-right: 20px;
+    }
+
+}
+
 /* media querey desktop */
