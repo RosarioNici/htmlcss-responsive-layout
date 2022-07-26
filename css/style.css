@@ -11,6 +11,15 @@ body {
 }
 
 /* Utilities */
+.max-width {
+    width: 309px;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .flex-beetwen {
     display: flex;
@@ -58,7 +67,7 @@ body {
 }
 
 .fixed-width {
-    width: 65%;
+    width: 70%;
 }
 
 .text-strategic,
@@ -67,7 +76,8 @@ body {
 .card-testimonial,
 .apple-button,
 .fa-bars,
-.violet-button {
+.violet-button,
+.linkedin-button {
     color: white;
 }
 
@@ -79,8 +89,18 @@ body {
 .card-testimonial,
 .strategic,
 .circle-button,
-.number-cards {
+.number-cards,
+.violet-button,
+.container-v {
     background-color: #9792e4;
+}
+
+.line-height {
+    line-height: 2;
+}
+
+a {
+    margin-right: 15px;
 }
 
 /* header rules */
@@ -254,7 +274,8 @@ body {
 .fa-3,
 .fa-4,
 .fa-5,
-.fa-6 {
+.fa-6,
+.quote-about-us {
     color: #9792e4;
 }
 
@@ -269,11 +290,92 @@ body {
     height: 40px;
     border: none;
     border-radius: 30px;
-    background-color: #9792e4;
+    font-size: large;
 
 }
 
 
+.about-us>* {
+    margin-top: 30px;
+}
+
+.img-about-us {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(../img/about.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.quote-about-us {
+    position: absolute;
+    right: 0;
+    font-size: 60px;
+}
+
+.linkedin-button {
+    width: 250px;
+    height: 30px;
+    background-color: #9792e4;
+    border: none;
+    border-radius: 30px;
+    font-size: large;
+}
+
+
 /* footer rules */
+.text-center {
+    text-align: center;
+}
+
+.footer-violet>* {
+    margin-top: 30px;
+}
+
+.footer-black {
+
+    color: white;
+    text-align: center;
+}
+
+.container-f {
+    background-color: #333;
+}
+
+.free {
+    font-size: 70px;
+    color: #fdc15f;
+}
+
+.white-title {
+    color: white;
+    font-size: 30px;
+}
+
+.grey-text {
+    color: #d5d4f4;
+    font-size: large;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.large-button {
+    color: #9792e4;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+}
+
+.footer-black>* {
+    margin-top: 25px;
+
+}
+
 /* media querey tablet */
 /* media querey desktop */
