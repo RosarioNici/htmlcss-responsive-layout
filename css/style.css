@@ -182,7 +182,6 @@ a {
 }
 
 .background-img {
-    width: 90%;
     height: 50%;
 }
 
@@ -384,6 +383,7 @@ span {
 /* media querey tablet */
 
 @media screen and (min-width: 768px) {
+
     .cards {
         display: flex;
         flex-wrap: wrap;
@@ -415,7 +415,7 @@ span {
     }
 
     .background-img {
-        transform: scale(0.8);
+        transform: scale(1.2);
     }
 
     .card-testimonial {
@@ -443,6 +443,33 @@ span {
     .container-img-testimonial-3 {
         width: 30%;
         margin-right: 20px;
+    }
+
+    .number-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .numbered {
+        width: calc(90% / 2);
+    }
+
+    .about-us {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .text-about-us {
+        width: calc(90% / 2);
+        margin: 20px;
+    }
+
+    .text-about-us>* {
+        margin-top: 20px;
     }
 
 }
