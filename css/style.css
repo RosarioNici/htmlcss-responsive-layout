@@ -117,6 +117,8 @@ a {
     font-size: x-large;
 }
 
+
+
 /* main rules */
 .card-button {
     height: 572px;
@@ -380,9 +382,21 @@ span {
     color: #9792e4;
 }
 
+/* media query mobile */
+
+
+
 /* media querey tablet */
+@media screen and (min-width: 150px) {
+    .navigation {
+        visibility: hidden;
+    }
+}
 
 @media screen and (min-width: 768px) {
+    .navigation {
+        visibility: hidden;
+    }
 
     .cards {
         display: flex;
@@ -475,3 +489,37 @@ span {
 }
 
 /* media querey desktop */
+
+@media screen and (min-width: 1400px) {
+
+    /* header */
+    .navigation {
+        visibility: visible;
+    }
+
+    header {
+        background-color: #0084fd;
+    }
+
+    .container-h {
+        max-width: 1200px;
+        margin: 0 auto;
+
+    }
+
+    .navigation-button {
+        border: none;
+        border-radius: 30px;
+        background-color: white;
+        width: 80px;
+        height: 30px;
+    }
+
+    .hamb-menu {
+        display: none;
+    }
+
+    /* main */
+
+
+}
