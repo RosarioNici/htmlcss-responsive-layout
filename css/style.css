@@ -94,7 +94,8 @@ body {
 .number-cards,
 .violet-button,
 .container-v,
-.linkedin-button {
+.linkedin-button,
+.container-strategic {
     background-color: #9792e4;
 }
 
@@ -531,15 +532,57 @@ span {
     .card {
         width: calc(90% / 3);
         height: 400px;
+        margin: 50px 20px 20px 20px;
     }
 
     .card-button {
         display: flex;
         flex-direction: row;
         max-width: 740px;
-        margin-left: 10px;
-        margin-top: 50px;
+        margin: 50px 20px 20px 20px;
         height: 400px;
+    }
+
+    .strategic {
+        max-width: 1200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: baseline;
+        margin: 0 auto;
+    }
+
+    .container-strategic {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .long-img-container {
+        max-width: 50%;
+    }
+
+    .long-img {
+        width: 100%;
+    }
+
+    .white-img {
+        width: 50%;
+
+    }
+
+    .container-testimonial {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .card-testimonial {
+        width: 100%;
+    }
+
+    .container-img-testimonial,
+    .container-img-testimonial-2,
+    .container-img-testimonial-3 {
+        width: 18%;
     }
 
     /* main */
