@@ -284,6 +284,21 @@ a {
     color: #9792e4;
 }
 
+.container-testimonial {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.title-testimonial {
+    text-align: center;
+    padding: 50px;
+    font-size: 24px;
+    color: white;
+}
+
+h3 {
+    font-weight: 200;
+}
 
 
 .icon-number {
@@ -380,7 +395,8 @@ span {
 
 }
 
-.link-footer {
+.link-footer,
+.title-testimonial-head {
     color: #9792e4;
 }
 
@@ -471,6 +487,11 @@ span {
 
     .numbered {
         width: calc(90% / 2);
+    }
+
+    .container-testimonial {
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 
     .about-us {
@@ -604,7 +625,9 @@ span {
 
     .title-testimonial {
         text-align: center;
-        margin-top: 70px;
+        padding: 50px;
+        font-size: 24px;
+        color: white;
     }
 
 
