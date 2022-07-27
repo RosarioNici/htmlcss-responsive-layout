@@ -11,6 +11,7 @@ body {
 }
 
 /* Utilities */
+/* #region */
 .max-width {
     width: 309px;
     text-align: center;
@@ -108,6 +109,7 @@ a {
     margin-right: 15px;
 }
 
+/* #endregion */
 /* header rules */
 .container-h {
     height: 90px;
@@ -122,6 +124,7 @@ a {
 
 
 /* main rules */
+/* #region */
 .card-button {
     height: 572px;
     background-color: #b5ddff;
@@ -344,8 +347,10 @@ h3 {
     font-size: large;
 }
 
+/* #endregion */
 
 /* footer rules */
+/* #region */
 .text-center {
     text-align: center;
 }
@@ -400,6 +405,7 @@ span {
     color: #9792e4;
 }
 
+/* #endregion */
 /* media query mobile */
 
 
@@ -411,6 +417,7 @@ span {
     }
 }
 
+/* region */
 @media screen and (min-width: 768px) {
     .navigation {
         visibility: hidden;
@@ -512,7 +519,7 @@ span {
 }
 
 /* media querey desktop */
-
+/* region */
 @media screen and (min-width: 1400px) {
 
     /* header */
